@@ -93,7 +93,7 @@ section {
     align-items: center;
 }
 
-anuncio_texto{
+.anuncio_texto{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
