@@ -94,7 +94,11 @@ section {
     background-color: var(--main-color);
 }
 
+<<<<<<< HEAD
 .anuncio_texto {
+=======
+.anuncio_texto{
+>>>>>>> a77fd5ef95120f8668b7548a246b5ddd400b8489
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
