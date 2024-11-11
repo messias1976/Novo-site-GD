@@ -80,8 +80,8 @@ header {
 }
 
 section {
-    min-height: 100vh;
-    padding:6rem 6rem 2rem;
+    min-height: 100%;
+    padding:10px 5px 10px;
 
    
 }
@@ -91,9 +91,10 @@ section {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    background-color: var(--main-color);
 }
 
-anuncio_texto{
+.anuncio_texto {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -238,7 +239,7 @@ form textarea{
     resize: none;
 }
 
-footer{
+footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
