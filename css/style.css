@@ -93,6 +93,12 @@ section {
     align-items: center;
 }
 
+anuncio_texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
 span {
     color: var(--main-color);
 }
