@@ -88,17 +88,17 @@ section {
 
 .anuncio {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    background-color:#00eeff;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .anuncio_texto {
-
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    min-height: 25rem;
+    margin-bottom: 1rem;
+    align-items: center;
 }
 
 span {
@@ -375,6 +375,10 @@ footer {
     .services-box{
         width: 100%;
     }
+    .anuncio {
+        flex-direction: column;
+        align-items: center;
+    }
 
 }
 
@@ -432,6 +436,10 @@ footer {
     form .input-box input {
         width: 49%;
     }
+    .anuncio {
+        width: 90%;
+        margin-bottom: 2rem;
+    }
 
 }
 
@@ -465,6 +473,10 @@ footer {
         }
 
         .services-container {
+            flex-direction: row;
+            gap: 1.2rem;
+        }
+        .anuncio {
             flex-direction: row;
             gap: 1.2rem;
         }
